@@ -1,0 +1,9 @@
+
+
+pip install flask-login
+pip install email-validator
+pip install flask-mail
+pip install pyjwt
+
+$ flask db migrate -m "new fields in user model"
+flask db upgrade
